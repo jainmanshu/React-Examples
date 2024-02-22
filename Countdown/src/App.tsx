@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Countdown from "./Countdown";
 import "./App.css";
 
-const TIME = 180;
+const TIME = 120;
 
 export default function App() {
   const [seconds, setSeconds] = useState(TIME);
