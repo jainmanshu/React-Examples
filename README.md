@@ -10,3 +10,4 @@ A collections of React Exercise/Examples for interview preparations.
 - Synonyms Finder
 - Typeahead
 - Collision Detection (A Three.js example)
+- CoinHood (Simple Crypto tracking App)
