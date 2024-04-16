@@ -19,7 +19,7 @@ function App() {
         placeItems: "center",
       }}
     >
-      <CarouselSlider images={images} />
+      <CarouselSlider images={images} timeout={1000} />
     </div>
   );
 }
