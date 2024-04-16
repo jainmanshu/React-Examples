@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wordle-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.line {
+  display: flex;
+  gap: 10px;
+}
+
+.tiles {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  font-size: 24px;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.correct {
+  background-color: green;
+}
+
+.close {
+  background-color: orange;
+}
+
+.incorrect {
+  background-color: gray;
+}
+
+.game-loss {
+  color: red;
+}
+
+.answer {
+  color: lightseagreen;
+  text-transform: uppercase;
+}
+
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg);
+  }
+
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.changing-color {
+  animation: hue 4s infinite linear;
+  background-image: linear-gradient(92deg, #f35626 0%, #feab3a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #f35626;
+  font-family: Trebuchet MS;
+  text-align: center;
+}
