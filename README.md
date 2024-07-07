@@ -17,7 +17,7 @@ A collections of React Exercise/Examples for interview preparations.
 - Pagination with buttons
 - Synonyms Finder
 - Todo App
-- Traffuc Light Animation
+- Traffic Light Animation
 - Transfer List (utilized Drag-N-Drop)
 - Typeahead
 
