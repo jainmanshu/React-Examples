@@ -23,23 +23,23 @@ A collections of React Exercise/Examples for interview preparations.
 
 ## How to run the different Examples
 
-1. Go to the project/example directory you want to run using the command
+- Go to the project/example directory you want to run using the command
 
 ```bash
 # we will run sample project My-Wordle
 cd My-Wordle
 ```
 
-2. Now install the dependency using NPM/Yarn
+- Now install the dependency using NPM/Yarn
 
 ```bash
 npm install
 ```
 
-3. Run the app using the command
+- Run the app using the command
 
 ```bash
 npm run dev
 ```
 
-4. The app should be running on port: `http://localhost:5173/`
+- The app should be running on port: `http://localhost:5173/`
