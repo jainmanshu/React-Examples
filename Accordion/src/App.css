@@ -4,3 +4,31 @@
   padding: 2rem;
   text-align: center;
 }
+
+.accordion {
+  color: black;
+  width: 100%;
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+
+.accordion-content {
+  padding: 1rem;
+  background-color: #fff;
+}

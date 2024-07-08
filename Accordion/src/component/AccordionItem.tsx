@@ -6,35 +6,12 @@ interface Props {
 }
 function AccordionItem({ title, content, onClick, isOpen }: Props) {
   return (
-    <div>
-      <div
-        style={{
-          width: 300,
-          height: 50,
-          border: "1px solid white",
-          display: "flex",
-          justifyItems: "center",
-          justifyContent: "space-between",
-          alignItems: "center",
-          paddingLeft: 10,
-          paddingRight: 10,
-        }}
-      >
+    <div className="accordion-item">
+      <div onClick={() => onClick()} className="accordion-title">
         <div>{title}</div>
-        <div onClick={() => onClick()}>{isOpen ? "-" : "+"}</div>
+        <div>{isOpen ? "-" : "+"}</div>
       </div>
-      {isOpen && (
-        <div
-          style={{
-            width: 300,
-            border: "1px solid white",
-            borderTop: undefined,
-            padding: 10,
-          }}
-        >
-          {content}
-        </div>
-      )}
+      {isOpen && <div className="accordion-content">{content}</div>}
     </div>
   );
 }

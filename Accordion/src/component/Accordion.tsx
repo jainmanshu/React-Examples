@@ -9,7 +9,7 @@ function Accordion() {
   };
 
   return (
-    <div>
+    <div className="accordion">
       {Items.map((item, index) => (
         <AccordionItem
           key={index}
