@@ -20,6 +20,8 @@ A collections of React Exercise/Examples for interview preparations.
 - Traffic Light Animation
 - Transfer List (utilized Drag-N-Drop)
 - Typeahead
+- Tic-Tac-Toe
+- File Explorer
 
 ## How to run the different Examples
 
