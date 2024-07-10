@@ -22,6 +22,7 @@ A collections of React Exercise/Examples for interview preparations.
 - Typeahead
 - Tic-Tac-Toe
 - File Explorer
+- Progress-Bar
 
 ## How to run the different Examples
 
