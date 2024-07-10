@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+.folder {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  place-content: center;
+  cursor: pointer;
+}
+
+.file {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
