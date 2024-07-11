@@ -23,6 +23,7 @@ A collections of React Exercise/Examples for interview preparations.
 - Tic-Tac-Toe
 - File Explorer
 - Progress-Bar
+- A Simple Checkout
 
 ## How to run the different Examples
 
