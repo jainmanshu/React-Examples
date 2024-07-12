@@ -24,6 +24,7 @@ A collections of React Exercise/Examples for interview preparations.
 - File Explorer
 - Progress-Bar
 - A Simple Checkout
+- Password Generator
 
 ## How to run the different Examples
 
