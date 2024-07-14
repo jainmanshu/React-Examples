@@ -25,6 +25,7 @@ A collections of React Exercise/Examples for interview preparations.
 - Progress-Bar
 - A Simple Checkout
 - Password Generator
+- Simple Grid Lights
 
 ## How to run the different Examples
 
