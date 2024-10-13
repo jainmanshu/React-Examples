@@ -21,6 +21,6 @@ A simple shopping list todo apps
 - **Example response:** `['milk', 'milkshake', 'mint', 'mixed herbs']`
 - **Notes:** Only accepts items with a minimum of two characters (e.g. 'mi' is fine, 'm' will return an empty array)
 
-# Demo
+## Demo
 
 ![demo](image.png)
