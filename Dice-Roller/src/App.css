@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+  font-family: sans-serif;
+}
+input {
+  padding: 5px;
+  margin: 10px;
+  width: 60px;
+}
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+.dice-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.dice {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  display: grid;
+  grid-template-areas:
+    "top-left top-center top-right"
+    "middle-left center middle-right"
+    "bottom-left bottom-center bottom-right";
+  padding: 5px;
+  background: #f9f9f9;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+}
+.top-left {
+  grid-area: top-left;
+  align-self: start;
+  justify-self: start;
+}
+.top-right {
+  grid-area: top-right;
+  align-self: start;
+  justify-self: end;
+}
+.bottom-left {
+  grid-area: bottom-left;
+  align-self: end;
+  justify-self: start;
+}
+.bottom-right {
+  grid-area: bottom-right;
+  align-self: end;
+  justify-self: end;
+}
+.center {
+  grid-area: center;
+  align-self: center;
+  justify-self: center;
+}
+.middle-left {
+  grid-area: middle-left;
+  align-self: center;
+  justify-self: start;
+}
+.middle-right {
+  grid-area: middle-right;
+  align-self: center;
+  justify-self: end;
+}
